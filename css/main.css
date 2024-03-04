@@ -1,0 +1,77 @@
+body{
+    background-color: #222222;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #2C2D31;
+    display: flex;
+    justify-content: space-around;
+}
+.navsidelinks{
+    width: 33%;
+    display: flex;
+}
+.navsidemidden{
+    width: 33%;
+    display: flex;
+    gap: 150px;
+}
+.menuitem{
+    text-decoration: none;
+    color: #FFFF;
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: 500;
+
+}
+.navsiderechts{
+    width: 33%;
+    display: flex;
+    justify-content: right;
+}
+.logoimg{
+width: 70px;
+height: 17px;
+margin-top: 15px;
+margin-left: 10px;
+}
+.loginbutton{
+    border-radius: 30PX;
+    width: 100PX;
+    height: 30PX;
+    color: #FFFF;
+    border: none;
+    background-color: #5344BB;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.uppertitle{
+    width: 100%;
+    height: 70px;
+}
+.title{
+    color: #5344BB;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.textcontainer{
+    display: flex;
+    justify-content: space-around;
+}
+.undertekst{
+    color: #FFFF;
+    justify-content: space-around;
+}
+.imagecontainer{
+    margin-top: 100px ;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
