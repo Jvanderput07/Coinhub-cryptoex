@@ -10,12 +10,12 @@
 <div class="nav">
         <div class="navsidelinks"><img src="../assets/CoinHub.png" class="logoimg"></div>
         <div class="navsidemidden">
-            <a href="index.php"><div class="menuitem">Home</div></a>
+            <a href="../index.php"><div class="menuitem">Home</div></a>
             <a href="about.php"><div class="menuitem">About</div></a>
             <a href="#"><div class="menuitem">Help</div></a>
         </div>
         <div class="navsiderechts">
-        <a href="pages/login.html"><button class="loginbutton">Login/register</button></a>
+        <a href="login.html"><button class="loginbutton">Login/register</button></a>
         </div>
     </div>
     <div class="uppertitle">
