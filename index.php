@@ -15,7 +15,7 @@
             <a href="#"><div class="menuitem">Help</div></a>
         </div>
         <div class="navsiderechts">
-            <a href="pages/login.html"><button class="loginbutton">Login/register</button></a>
+            <a href="pages/login.html" class="loginbutton">Login</a>
         </div>
     </div>
     <div class="uppertitle">
