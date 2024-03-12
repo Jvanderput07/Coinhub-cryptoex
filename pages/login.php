@@ -12,19 +12,18 @@
         <div class="navsidemidden">
             <a href="../index.php" class="menuitem">Home</a>
             <a href="about.php" class="menuitem">About</a>
-            <a href="#" class="menuitem">Help</a>
+            <a href="coins.php" class="menuitem">Coins</a>
         </div>
         <div class="navsiderechts">     
         </div>
     </div>
     <div class="maincontainer">
         <div class="logincontainer">
-            <input type="text" id="username" placeholder="Username"/>
-            <input type="password" id="passwrd" placeholder="Password"/>
-            <a href="#"class="ca">Create account</a>
-            <div class="buttonset">
-                <button  id="loginbtn" onclick="submit()">Login
-            </div>
+            <form action="login_logic.php" name="login_logic" method="POST">
+                <input type="text" name="username" placeholder="Username">
+                <input type="password" name="password" placeholder="Password">
+                    <input type="submit" value="login">
+            </form>
         </div>
     </div>
 </body>

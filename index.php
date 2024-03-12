@@ -12,10 +12,10 @@
         <div class="navsidemidden">
             <a href="index.php"><div class="menuitem">Home</div></a>
             <a href="pages/about.php"><div class="menuitem">About</div></a>
-            <a href="#"><div class="menuitem">Help</div></a>
+            <a href="pages/coins.php"><div class="menuitem">Coins</div></a>
         </div>
         <div class="navsiderechts">
-            <a href="pages/login.html" class="loginbutton">Login</a>
+            <a href="pages/login.php" class="loginbutton">Login</a>
         </div>
     </div>
     <div class="uppertitle">
