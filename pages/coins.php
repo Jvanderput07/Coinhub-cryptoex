@@ -1,3 +1,7 @@
+<?php
+require('conn.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,5 +22,16 @@
         <a href="login.php" class="loginbutton">Login</a>   
         </div>
     </div>
+    <?php 
+    $stmt = $connection->query("SELECT * FROM coins");
+  
+        while ($row = $stmt->fetch()) {
+         echo "<div class='test' style='background-color: #2C2D31; margin-top: 20px; color: #ffff; padding: 10px; margin-bottom: 10px; justify-content: space-around; border-radius: 30px;>";
+            echo "<span class='item'>" . $row['name'] . "</span>";
+            echo "<img src='../assets/" . $row['image'] . "' class='item'>"; 
+            echo "<span class='item'>" . $row['img_prijs'] . "</span>";
+            echo "</div>";
+    }
+    ?>
 </body>
 </html>
